@@ -1,0 +1,302 @@
+{
+  "questions": [
+    {
+      "question": "Which HTML tag is used to define an internal style sheet?",
+      "options": ["<style>", "<link>", "<script>", "<meta>"],
+      "correctOption": 0,
+      "points": 10,
+      "language": "HTML",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is the purpose of the 'content' property in CSS when used with the '::before' or '::after' pseudo-elements?",
+      "options": [
+        "To insert content before or after an element",
+        "To style content inside an element",
+        "To create a new HTML element",
+        "To define element's background"
+      ],
+      "correctOption": 0,
+      "points": 20,
+      "language": "HTML",
+      "difficulty": "hard"
+    },
+    {
+      "question": "Which of the following is used to link an external JavaScript file in HTML?",
+      "options": [
+        "<script src='file.js'>",
+        "<link href='file.js'>",
+        "<javascript src='file.js'>",
+        "<js src='file.js'>"
+      ],
+      "correctOption": 0,
+      "points": 10,
+      "language": "HTML",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What does the <a> tag in HTML define?",
+      "options": ["A paragraph", "A link", "An image", "A header"],
+      "correctOption": 1,
+      "points": 10,
+      "language": "HTML",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which attribute is used to specify the image source in an <img> tag?",
+      "options": ["src", "href", "alt", "link"],
+      "correctOption": 0,
+      "points": 10,
+      "language": "HTML",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is the correct HTML element for inserting a line break?",
+      "options": ["<br>", "<hr>", "<b>", "<break>"],
+      "correctOption": 0,
+      "points": 10,
+      "language": "HTML",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which tag is used to create an unordered list in HTML?",
+      "options": ["<ul>", "<ol>", "<li>", "<list>"],
+      "correctOption": 0,
+      "points": 10,
+      "language": "HTML",
+      "difficulty": "easy"
+    },
+    {
+      "question": "How can you make a list item in HTML a link?",
+      "options": [
+        "By wrapping <a> tag around <li>",
+        "By using the <li> tag with the 'href' attribute",
+        "By wrapping the <li> tag around <a>",
+        "By using the <link> tag inside the <li>"
+      ],
+      "correctOption": 0,
+      "points": 20,
+      "language": "HTML",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is the default value of the 'display' property in CSS for block elements?",
+      "options": ["inline", "block", "none", "inline-block"],
+      "correctOption": 1,
+      "points": 20,
+      "language": "HTML",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which HTML element is used to define a table?",
+      "options": ["<table>", "<tr>", "<th>", "<td>"],
+      "correctOption": 0,
+      "points": 20,
+      "language": "HTML",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which property is used to control the font size in CSS?",
+      "options": ["font-size", "font-style", "font-weight", "font-family"],
+      "correctOption": 0,
+      "points": 10,
+      "language": "CSS",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which property is used to change the background color of an element in CSS?",
+      "options": ["color", "background-color", "bg-color", "bg"],
+      "correctOption": 1,
+      "points": 10,
+      "language": "CSS",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What does the 'z-index' property in CSS do?",
+      "options": [
+        "Controls the stacking order of elements",
+        "Controls the transparency of an element",
+        "Controls the position of the element",
+        "Controls the visibility of the element"
+      ],
+      "correctOption": 0,
+      "points": 20,
+      "language": "CSS",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Which CSS property is used to change the font of an element?",
+      "options": ["font-style", "font-family", "font-weight", "font-size"],
+      "correctOption": 1,
+      "points": 10,
+      "language": "CSS",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which CSS property controls the space between the content and the border of an element?",
+      "options": ["padding", "margin", "border", "spacing"],
+      "correctOption": 0,
+      "points": 10,
+      "language": "CSS",
+      "difficulty": "easy"
+    },
+
+    {
+      "question": "Which CSS property is used to create space between elements?",
+      "options": ["spacing", "padding", "margin", "border-spacing"],
+      "correctOption": 2,
+      "points": 10,
+      "language": "CSS",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which of the following is a CSS pseudo-class used to select links that have been visited?",
+      "options": [":hover", ":active", ":focus", ":visited"],
+      "correctOption": 3,
+      "points": 10,
+      "language": "CSS",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is the purpose of the 'box-sizing' property in CSS?",
+      "options": [
+        "To specify the box model used for an element",
+        "To define the border of an element",
+        "To specify the padding of an element",
+        "To set the width of an element"
+      ],
+      "correctOption": 0,
+      "points": 20,
+      "language": "CSS",
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is the default value of the 'position' property in CSS?",
+      "options": ["static", "relative", "absolute", "fixed"],
+      "correctOption": 0,
+      "points": 10,
+      "language": "CSS",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is the purpose of the 'will-change' property in CSS, and how can it impact performance?",
+      "options": [
+        "Optimizes rendering",
+        "Prevents layout shifts",
+        "Forces re-render",
+        "Excludes properties"
+      ],
+      "correctOption": 0,
+      "points": 20,
+      "language": "CSS",
+      "difficulty": "hard"
+    },
+
+    {
+      "question": "Which is the most popular JavaScript framework?",
+      "options": ["Angular", "React", "Svelte", "Vue"],
+      "correctOption": 1,
+      "points": 10,
+      "language": "React",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which company invented React?",
+      "options": ["Google", "Apple", "Netflix", "Facebook"],
+      "correctOption": 3,
+      "points": 10,
+      "language": "React",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What's the fundamental building block of React apps?",
+      "options": ["Components", "Blocks", "Elements", "Effects"],
+      "correctOption": 0,
+      "points": 10,
+      "language": "React",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What's the name of the syntax we use to describe the UI in React components?",
+      "options": ["FBJ", "Babel", "JSX", "ES2015"],
+      "correctOption": 2,
+      "points": 10,
+      "language": "React",
+      "difficulty": "easy"
+    },
+    {
+      "question": "How does data flow naturally in React apps?",
+      "options": [
+        "From parents to children",
+        "From children to parents",
+        "Both ways",
+        "The developers decides"
+      ],
+      "correctOption": 0,
+      "points": 10,
+      "language": "React",
+      "difficulty": "easy"
+    },
+    {
+      "question": "How to pass data into a child component?",
+      "options": ["State", "Props", "PropTypes", "Parameters"],
+      "correctOption": 1,
+      "points": 10,
+      "language": "React",
+      "difficulty": "easy"
+    },
+    {
+      "question": "When to use derived state?",
+      "options": [
+        "Whenever the state should not trigger a re-render",
+        "Whenever the state can be synchronized with an effect",
+        "Whenever the state should be accessible to all components",
+        "Whenever the state can be computed from another state variable"
+      ],
+      "correctOption": 3,
+      "points": 30,
+      "language": "React",
+      "difficulty": "hard"
+    },
+    {
+      "question": "What triggers a UI re-render in React?",
+      "options": [
+        "Running an effect",
+        "Passing props",
+        "Updating state",
+        "Adding event listeners to DOM elements"
+      ],
+      "correctOption": 2,
+      "points": 20,
+      "language": "React",
+      "difficulty": "medium"
+    },
+    {
+      "question": "When do we directly \"touch\" the DOM in React?",
+      "options": [
+        "When we need to listen to an event",
+        "When we need to change the UI",
+        "When we need to add styles",
+        "Almost never"
+      ],
+      "correctOption": 3,
+      "points": 20,
+      "language": "React",
+      "difficulty": "medium"
+    },
+
+    {
+      "question": "What is the purpose of the `useEffect` hook in React?",
+      "options": [
+        "Manage state",
+        "Handle side effects",
+        "Render conditionally",
+        "Define static properties"
+      ],
+      "correctOption": 1,
+      "points": 20,
+      "language": "React",
+      "difficulty": "medium"
+    }
+  ]
+}
