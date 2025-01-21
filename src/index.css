@@ -41,7 +41,8 @@ body {
 }
 
 .app-header {
-  width: 66rem;
+  width: 75rem;
+
   margin-bottom: 4rem;
   display: flex;
   align-items: center;

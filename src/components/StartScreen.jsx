@@ -5,7 +5,7 @@ const difficultyLevels = ["ALL", "easy", "medium", "hard"];
 function StartScreen({ numQuestions, dispatch, difficulty, language }) {
   return (
     <div className="start">
-      <h2>Welcome to the react Quiz</h2>
+      <h2>Welcome to the Quiz </h2>
       <div
         style={{
           display: "flex",
