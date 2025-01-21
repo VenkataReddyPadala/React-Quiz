@@ -31,6 +31,7 @@ const initialState = {
 function reducer(state, action) {
   switch (action.type) {
     case Actions.DATARECEIVED:
+      console.log(action.payload);
       return { ...state, questions: action.payload, status: "ready" };
     case Actions.DATAFAILED:
       return { ...state, status: "error" };
@@ -170,13 +171,19 @@ function App() {
     questions.reduce((prev, cur) => prev + cur.points, 0);
 
   // const { questions, status } = state;
+  // console.log(questions);
 
   useEffect(() => {
     async function fetchQuestions() {
       try {
-        const response = await fetch("http://localhost:8000/questions");
+        const response = await fetch(
+          "https://venkatareddypadala.github.io/React_quiz_api/questions.json"
+        );
+        // const response = await fetch("http://localhost:8000/questions");
+        // const response = await fetch("/questions.json");
         const data = await response.json();
-        dispatch({ type: Actions.DATARECEIVED, payload: data });
+
+        dispatch({ type: Actions.DATARECEIVED, payload: data.questions });
       } catch {
         dispatch({ type: Actions.DATAFAILED });
       }
