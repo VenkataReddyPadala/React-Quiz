@@ -1,10 +1,8 @@
-import { useData } from "../context/QuizContext";
 import { Actions } from "./Actions";
 const languages = ["ALL", "HTML", "CSS", "React"];
 const difficultyLevels = ["ALL", "easy", "medium", "hard"];
 
-function StartScreen() {
-  const { numQuestions, dispatch, difficulty, language } = useData();
+function StartScreen({ numQuestions, dispatch, difficulty, language }) {
   return (
     <div className="start">
       <h2>Welcome to the Quiz </h2>

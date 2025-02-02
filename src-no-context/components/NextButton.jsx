@@ -1,8 +1,5 @@
-import { useData } from "../context/QuizContext";
 import { Actions } from "./Actions";
-function NextButton() {
-  const { dispatch, answer, index, numQuestions } = useData();
-  const lastIndex = index === numQuestions - 1;
+function NextButton({ dispatch, answer, lastIndex }) {
   if (answer === null) return;
   return (
     <button

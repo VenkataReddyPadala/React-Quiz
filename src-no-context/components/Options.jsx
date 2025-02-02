@@ -1,9 +1,5 @@
-import { useData } from "../context/QuizContext";
 import { Actions } from "./Actions";
-function Options({ question }) {
-  const { dispatch, answer } = useData();
-
-  // console.log()
+function Options({ question, dispatch, answer }) {
   const hasAnswered = answer !== null;
   return (
     <div className="options">
